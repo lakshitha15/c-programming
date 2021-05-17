@@ -3,7 +3,7 @@ int isPrime(int,int);
  int main(){
  int num,prime;
   printf("Enter a positive number: ");
-  scanf("%d",&amp;num);
+  scanf("%d",&num);
  prime = isPrime(num,num/2);
  if(prime==1)
     printf("%d is a prime number",num);
